@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Midnight",
+        "mskn": 18
+    },
+    {
+        "name": "abc",
+        "mskn": 20
+    },
+    {
+        "name": "xyz",
+        "mskn": false
+    },
+    {
+        "name": "xyz",
+        "mskn": false
+    },
+    {
+        "name": "xyz",
+        "mskn": false
+    }
+]
