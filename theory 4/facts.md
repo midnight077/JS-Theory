@@ -18,4 +18,11 @@
     - first -> success callback
     - second -> failure callback
 * catch is nothing but then(undefined,fcb);
-* every then and catch also returns a promise
+
+* **every then and catch also returns a promise**
+* once a promise is fulfilled or rejected, the respective handler fn (scb/fcb) will be called asynchronously
+* if handler fn  
+    - returns a value -> the promise returned by then gets resolved with returned value as its value
+    - doesnot return anything -> the promise returned by then gets resolved with undefined
+    - returns another pending promise -> the resolution of promise returned by then will be subsequent to resolution of promise returned by handler. 
+    - throws an error -> the promise returned by then gets rejected
